@@ -1,0 +1,16 @@
+.search {
+  -webkit-appearance: none;
+  border: none;
+  outline: none;
+  padding: 0.5rem 1rem;
+  width: 250px;
+  margin-bottom: 30px;
+  color: #fff;
+  transition: all 0.3s;
+  background: linear-gradient(to right bottom, #12c2e9, #c471ed, #f64f59);
+}
+
+.search:focus,
+.search:active {
+  border-bottom: 3px solid #12c2e9;
+}

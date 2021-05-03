@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Bigelow+Rules&display=swap");
+
 .App {
   text-align: center;
 }
@@ -22,6 +24,14 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.App-heading {
+  font-family: "Bigelow Rules";
+  font-size: 72px;
+  background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .App-link {
